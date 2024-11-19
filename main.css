@@ -1,0 +1,16 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Sets the default font family */
+    background-color: #f8f9fa; /* Light gray background for the body */
+    margin: 1; /* Removes default margin */
+    padding: 1; /* Removes default padding */
+}
+
+/* Container styles */
+.container {
+    margin-top: 20px; /* Adds top margin to the container */
+    padding: 20px; /* Adds padding inside the container */
+    background-color: #ffffff; /* Sets background color to white */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the container */
+}
