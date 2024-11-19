@@ -14,3 +14,31 @@ body {
     border-radius: 8px; /* Rounds the corners of the container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the container */
 }
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem; /* Sets the font size of the main heading */
+    color: black; /* Dark gray color for the main heading */
+    margin-bottom: 2%; /* Adds bottom margin to the main heading */
+    text-align: center; /* Centers the main heading */
+}
+
+/* Button styles */
+button {
+    display: inline-block; /* Ensures buttons display inline-block */
+    margin: 5px; /* Adds small margin around buttons */
+}
+
+/* Bootstrap primary button styles */
+.btn-primary {
+    background-color: blue; /* Sets background color of primary button */
+    border-color: black; /* Sets border color of primary button */
+    color: whitesmoke; /* Sets text color of primary button */
+}
+
+/* Warning alert styles */
+.alert-warning {
+    background-color: yellow; /* Sets background color of the warning alert */
+    border-color: black; /* Sets border color of the warning alert */
+    color: black; /* Sets text color of the warning alert */
+    margin-top: 5%; /* Adds top margin to the alert */
