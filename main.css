@@ -42,3 +42,28 @@ button {
     border-color: black; /* Sets border color of the warning alert */
     color: black; /* Sets text color of the warning alert */
     margin-top: 5%; /* Adds top margin to the alert */
+}
+
+/* Styles for the badge */
+.badge {
+    font-size: 2rem; /* Sets font size for the badge */
+    padding: 0.5em 1em; /* Adds padding to the badge */
+}
+
+/* jQuery message styles */
+#jqueryMessage {
+    display: none; /* Hides the jQuery message by default */
+    margin-top: 1rem; /* Adds top margin to the jQuery message */
+}
+
+/* Info alert styles for jQuery message */
+.alert-info {
+    background-color: aqua; /* Sets background color of the info alert */
+    border-color: black; /* Sets border color of the info alert */
+    color: black /* Sets text color of the info alert */
+}
+
+/* Styles for Font Awesome icons */
+.fas {
+    margin-right: 10px; /* Adds right margin to Font Awesome icons */
+}
