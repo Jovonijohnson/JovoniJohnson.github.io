@@ -1,0 +1,19 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importing Google Font 'Roboto' */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Setting font family to 'Roboto' */
+    background-color: lightgray; /* Setting background color to light gray */
+    color: #333; /* Setting text color to dark gray */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+/* Page Wrapper */
+.page-wrapper {
+    max-width: 1200px; /* Setting maximum width of the page wrapper */
+    margin: 0 auto; /* Centering the page wrapper */
+    padding: 30px; /* Adding padding inside the page wrapper */
+    box-sizing: border-box; /* Ensuring padding and border are included in the element's total width and height */
+}
