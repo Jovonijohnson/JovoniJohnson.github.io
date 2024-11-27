@@ -41,3 +41,69 @@ h2:hover {
     color: #005bb5; /* Changing color of h2 headers on hover */
 }
 
+/* Section Headers */
+h3 {
+    font-size: 1.5em; /* Setting font size for h3 headers */
+    border-bottom: 1px solid #ccc; /* Adding a bottom border to h3 headers */
+    padding-bottom: 10px; /* Adding padding below h3 headers */
+    margin-bottom: 15px; /* Adding margin below h3 headers */
+    transition: color 0.3s, border-bottom 0.3s; /* Adding transition for color and border changes */
+}
+
+h3:hover {
+    color: #005bb5; /* Changing color of h3 headers on hover */
+    border-bottom: 1px solid #005bb5; /* Changing border color of h3 headers on hover */
+}
+
+/* Text Elements */
+p, a, abbr {
+    line-height: 1.6; /* Setting line height for text elements */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #e0e0e0; /* Setting background color for the sidebar */
+    padding: 20px; /* Adding padding inside the sidebar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow to the sidebar */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Adding transition for background and box-shadow changes */
+}
+
+.sidebar:hover {
+    background-color: #d0d0d0; /* Changing background color of sidebar on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Changing box shadow of sidebar on hover */
+}
+
+.sidebar h3 {
+    color: #0073e6; /* Setting color for sidebar headers */
+}
+
+.sidebar a {
+    color: #333; /* Setting color for sidebar links */
+    text-decoration: none; /* Removing underline from links */
+    display: block; /* Ensuring links take up the full width */
+    transition: color 0.3s, padding-left 0.3s; /* Adding transition for color and padding changes */
+}
+
+.sidebar a:hover {
+    color: #0073e6; /* Changing color of sidebar links on hover */
+    text-decoration: underline; /* Adding underline to sidebar links on hover */
+    padding-left: 10px; /* Adding left padding on hover for a sliding effect */
+}
+
+/* Grid Layout */
+.container {
+    display: grid; /* Setting display to grid for the container */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Defining grid columns */
+    gap: 20px; /* Adding gap between grid items */
+    padding: 20px; /* Adding padding inside the grid container */
+}
+
+/* Pseudo-element Example */
+p::first-line {
+    font-size: 1.2em; /* Setting font size for the first line of paragraphs */
+    font-weight: bold; /* Making the first line bold */
+    color: #0073e6; /* Setting color for the first line */
+    line-height: 1.8; /* Setting line height for the first line */
+    background-color: #e0f7fa; /* Adding background color to the first line */
+    padding: 0 5px; /* Adding padding to the first line */
+}
