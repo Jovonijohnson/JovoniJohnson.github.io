@@ -113,3 +113,21 @@ a:hover::after {
     transform-origin: bottom left; /* Adjust transform origin */
 }
 
+/* Simplified Pseudo-classes and Pseudo-elements */
+article::before {
+    content: ""; /* Empty content for pseudo-element */
+    display: block; /* Display as block */
+    height: 5px; /* Set height */
+    width: 50px; /* Set width */
+    background-color: #ff6b6b; /* Set background color to red */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
+aside ul li:first-child {
+    color: #ff6b6b; /* Set color of first list item to red */
+}
+
+aside ul li:last-child {
+    color: tomato; /* Set color of last list item to tomato */
+}
+
