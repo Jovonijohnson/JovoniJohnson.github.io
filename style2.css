@@ -56,3 +56,38 @@ header {
     padding: 20px; /* Add padding around main content */
 }
 
+/* Sidebar */
+aside {
+    flex: 1; /* Allow the sidebar to flex */
+    background-color: #292929; /* Set background color to dark grey */
+    padding: 15px; /* Add padding inside the sidebar */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7); /* Add a shadow effect */
+    transition: transform 0.3s; /* Add a transform transition */
+}
+aside:hover {
+    transform: scale(1.05); /* Scale up the sidebar on hover */
+}
+
+/* Articles */
+article {
+    flex: 2; /* Allow the article to flex */
+    background-color: #333333; /* Set background color to dark grey */
+    padding: 20px; /* Add padding inside the article */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7); /* Add a shadow effect */
+    margin-bottom: 20px; /* Add bottom margin to separate articles */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effects */
+}
+article:hover {
+    background-color: #444444; /* Change background color on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.7); /* Increase shadow on hover */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #ff6b6b, #ffd93d); /* Set a gradient background */
+    text-align: center; /* Center-align the text */
+    color: white; /* Set text color to white */
+    padding: 10px; /* Add padding inside the footer */
+}
+
+
