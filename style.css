@@ -133,3 +133,27 @@ button:hover {
     background-color: #005bb5; /* Changing background color of buttons on hover */
     transform: scale(1.05); /* Slightly enlarging button on hover */
 }
+
+/* Zen Intro Section */
+#zen-intro {
+    background: #f4f4f4; /* Setting background color for zen-intro section */
+    padding: 20px; /* Adding padding inside zen-intro section */
+    border-left: 5px solid #0073e6; /* Adding left border to zen-intro section */
+    margin-bottom: 20px; /* Adding margin below zen-intro section */
+}
+
+#zen-intro h1, #zen-intro h2 {
+    margin-top: 0; /* Removing top margin for h1 and h2 inside zen-intro */
+}
+
+/* Zen Summary Section */
+#zen-summary {
+    background: #e8f5e9; /* Setting background color for zen-summary section */
+    padding: 15px; /* Adding padding inside zen-summary section */
+    border-left: 4px solid lightblue; /* Adding left border to zen-summary section */
+    margin-bottom: 20px; /* Adding margin below zen-summary section */
+}
+
+#zen-summary p {
+    margin: 10px 0; /* Adding margin to paragraphs inside zen-summary */
+}
