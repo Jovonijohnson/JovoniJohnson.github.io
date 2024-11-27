@@ -31,4 +31,28 @@ header {
         transform: scale(1); /* Back to normal scale at end */
     }
 }
+/* Introduction Section */
+#zen-intro {
+    margin-bottom: 20px; /* Add bottom margin to separate sections */
+}
+
+/* Summary Section */
+#zen-summary {
+    background-color: #333333; /* Set background color to dark grey */
+    padding: 20px; /* Add padding inside the summary section */
+    margin-bottom: 20px; /* Add bottom margin to separate sections */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7); /* Add a shadow effect */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effects */
+}
+#zen-summary:hover {
+    background-color: #444444; /* Change background color on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.7); /* Increase shadow on hover */
+}
+
+/* Main Content */
+.main {
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Add space between flex items */
+    padding: 20px; /* Add padding around main content */
+}
 
