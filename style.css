@@ -107,3 +107,29 @@ p::first-line {
     background-color: #e0f7fa; /* Adding background color to the first line */
     padding: 0 5px; /* Adding padding to the first line */
 }
+
+/* Links */
+a {
+    transition: color 0.3s, padding-left 0.3s; /* Adding transition for color and padding changes */
+}
+
+a:hover {
+    color: #0073e6; /* Changing color of links on hover */
+    text-decoration: underline; /* Adding underline to links on hover */
+    padding-left: 5px; /* Adding left padding on hover for a sliding effect */
+}
+
+/* Buttons */
+button {
+    background-color: #0073e6; /* Setting background color for buttons */
+    color: #fff; /* Setting text color for buttons */
+    border: none; /* Removing default border from buttons */
+    padding: 10px 20px; /* Adding padding inside buttons */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Adding transition for background and transform changes */
+}
+
+button:hover {
+    background-color: #005bb5; /* Changing background color of buttons on hover */
+    transform: scale(1.05); /* Slightly enlarging button on hover */
+}
