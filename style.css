@@ -17,3 +17,27 @@ body {
     padding: 30px; /* Adding padding inside the page wrapper */
     box-sizing: border-box; /* Ensuring padding and border are included in the element's total width and height */
 }
+
+/* Headers */
+h1 {
+    font-size: 2.5em; /* Setting font size for h1 headers */
+    margin-bottom: 20px; /* Adding margin below h1 headers */
+    border-bottom: 2px solid #0073e6; /* Adding a bottom border to h1 headers */
+    transition: color 0.3s, border-bottom 0.3s; /* Adding transition for color and border changes */
+}
+
+h1:hover {
+    color: #005bb5; /* Changing color of h1 headers on hover */
+    border-bottom: 2px solid #005bb5; /* Changing border color of h1 headers on hover */
+}
+
+h2 {
+    font-size: 1.8em; /* Setting font size for h2 headers */
+    color: #0073e6; /* Setting color for h2 headers */
+    transition: color 0.3s; /* Adding transition for color change */
+}
+
+h2:hover {
+    color: #005bb5; /* Changing color of h2 headers on hover */
+}
+
