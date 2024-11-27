@@ -11,3 +11,24 @@ body {
 .page-wrapper {
     padding: 20px; /* Add padding around the page wrapper */
 }
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #ff6b6b, #ffd93d); /* Set a gradient background */
+    padding: 20px; /* Add padding inside the header */
+    text-align: center; /* Center-align the text */
+    color: white; /* Set text color to white */
+    animation: pulse 3s infinite; /* Apply a pulsing animation */
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Normal scale at start */
+    }
+    50% {
+        transform: scale(1.05); /* Slightly larger at midpoint */
+    }
+    100% {
+        transform: scale(1); /* Back to normal scale at end */
+    }
+}
+
