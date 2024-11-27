@@ -1,0 +1,13 @@
+/* General Settings */
+body {
+    font-family: 'Montserrat', sans-serif; /* Set the font family to Montserrat */
+    color: #f5f5f5; /* Set text color to a light shade */
+    background-color: #1a1a1a; /* Set background color to dark */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Page Wrapper */
+.page-wrapper {
+    padding: 20px; /* Add padding around the page wrapper */
+}
