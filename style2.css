@@ -90,4 +90,26 @@ footer {
     padding: 10px; /* Add padding inside the footer */
 }
 
+/* Links */
+a {
+    color: #ffd93d; /* Set link color to yellow */
+    text-decoration: none; /* Remove underline from links */
+    position: relative; /* Set position to relative for pseudo-element positioning */
+}
+a::after {
+    content: ''; /* Empty content for pseudo-element */
+    position: absolute; /* Position absolutely within parent */
+    width: 100%; /* Set width to full width of parent */
+    transform: scaleX(0); /* Scale down horizontally */
+    height: 2px; /* Set height of pseudo-element */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to the left */
+    background-color: #ffd93d; /* Set background color to yellow */
+    transform-origin: bottom right; /* Set transform origin */
+    transition: transform 0.25s ease-out; /* Add transition effect */
+}
+a:hover::after {
+    transform: scaleX(1); /* Scale up on hover */
+    transform-origin: bottom left; /* Adjust transform origin */
+}
 
