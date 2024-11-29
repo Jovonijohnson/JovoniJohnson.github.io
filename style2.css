@@ -92,7 +92,7 @@ footer {
 
 /* Links */
 a {
-    color: #ffd93d; /* Set link color to yellow */
+    color: tomato; /* Set link color to tomato */
     text-decoration: none; /* Remove underline from links */
     position: relative; /* Set position to relative for pseudo-element positioning */
 }
@@ -130,4 +130,3 @@ aside ul li:first-child {
 aside ul li:last-child {
     color: tomato; /* Set color of last list item to tomato */
 }
-

@@ -5,9 +5,13 @@
 body {
     font-family: 'Roboto', sans-serif; /* Setting font family to 'Roboto' */
     background-color: lightgray; /* Setting background color to light gray */
-    color: #333; /* Setting text color to dark gray */
+    background-image: url('image1.jpg'); /* Adding background image */ 
+    background-size: cover; /* Ensuring the image covers the entire background */
+    background-repeat: no-repeat; /* Preventing the image from repeating */
+    background-attachment: fixed; /* Ensuring the background image stays fixed */
+    color: #f7f7f7; /* Setting text color to dark gray */ 
     margin: 0; /* Removing default margin */
-    padding: 0; /* Removing default padding */
+    padding: 0; /* Removing default padding */ 
 }
 
 /* Page Wrapper */
@@ -129,6 +133,8 @@ button {
     transition: background-color 0.3s, transform 0.3s; /* Adding transition for background and transform changes */
 }
 
+
+
 button:hover {
     background-color: #005bb5; /* Changing background color of buttons on hover */
     transform: scale(1.05); /* Slightly enlarging button on hover */
@@ -144,4 +150,6 @@ button:hover {
 
 #zen-intro h1, #zen-intro h2 {
     margin-top: 0; /* Removing top margin for h1 and h2 inside zen-intro */
+}
+html { font-size: 20px;
 }
